@@ -1,0 +1,31 @@
+<nav class="bg-white p-2 mt-0 w-full"> <!-- Add this to make the nav fixed: "fixed z-10 top-0" -->
+  <div class="container mx-auto flex flex-wrap items-center">
+    <div class="flex w-full md:w-1/2  justify-center md:justify-start text-white font-extrabold">
+      <a class="text-white no-underline  hover:text-white hover:no-underline" href="#">
+        <span class="text-2xl">
+          <img  class="h-16" src="assets/logo-header.png"/><i class="em em-grinning"></i>
+        </span>
+      </a>
+    </div>
+    <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end font-serif ">
+      <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+        <li class="mr-3 " [ngClass]="{'border-t-2 border-red-200': activeRoute === '/'}">
+          <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4 " routerLink="">Accueil</a>
+        </li>
+        <li class="mr-3 " [ngClass]="{'border-t-2 border-red-200': activeRoute === '/themes'}">
+          <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+             routerLink="themes">Thèmes</a>
+        </li>
+        <li class="mr-3" [ngClass]="{'border-t-2 border-red-200': activeRoute === '/galeries'}">
+          <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" routerLink="galeries">Galeries</a>
+        </li>
+        <button
+          id="navAction"
+          class="bg-red-200 hover:bg-red-400 text-white font-bold py-2 px-4 rounded-full" routerLink="devis"
+        >
+          Devis
+        </button>
+      </ul>
+    </div>
+  </div>
+</nav>
