@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
 
+Demo : [here](https://manalsalmi.github.io/rose-orientale/)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -14,7 +17,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 npm run build (use npm run build for postcss processing)
 
 ## Deploy on github 
-ngh -no-silent --dir dist/rose-orientale  (need to install ngh globally npm install -g angular-cli-ghpages)
+ngh --no-silent --dir dist/rose-orientale  (need to install ngh globally npm install -g angular-cli-ghpages)
 
 ## Running unit tests
 
