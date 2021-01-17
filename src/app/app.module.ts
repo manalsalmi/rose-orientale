@@ -8,6 +8,7 @@ import {ThemesComponent} from './themes/themes.component';
 import {GaleriesComponent} from './galeries/galeries.component';
 import {DevisComponent} from './devis/devis.component';
 import {ComponentsModule} from './components/components.module';
+import { ClientSatisfactionComponent } from './client-satisfaction/client-satisfaction.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {ComponentsModule} from './components/components.module';
     ThemesComponent,
     GaleriesComponent,
     DevisComponent,
+    ClientSatisfactionComponent,
   ],
   imports: [
     BrowserModule,

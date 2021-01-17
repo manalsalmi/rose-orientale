@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .homeimg {
+    background-color: #fff8f8;
+    background-image: url(../../assets/waves.svg), url(../../assets/stars.svg);
+    background-position: bottom, left 0%;
+    background-repeat: no-repeat, repeat-x;
+    background-size: contain, 100%;
+  }
+}
+@media (min-width: 768px) {
+  .homeimg {
+    background-color: #fff8f8;
+    background-image: url(../../assets/waves.svg), url(../../assets/landing.png), url(../../assets/stars.svg);
+    background-position: bottom, right top, left 0%;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-size: contain, 40% 90%, 50% 100%;
+  }
+}
