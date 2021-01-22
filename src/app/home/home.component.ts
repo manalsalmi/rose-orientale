@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 
   satisfactionsParent: SatisfactionModel [] = [
     {
-      message: ' je recommende vivement la prochaine commande',
+      message:'Encore un grand merci pour ma commande, cétait super bon.',
       nom: 'Anne'
     },
     {
